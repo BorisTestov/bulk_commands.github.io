@@ -1,0 +1,10 @@
+<map id="include/observer.h" name="include/observer.h">
+<area shape="rect" id="node2" href="$observer_8cpp.html" title="src/observer.cpp" alt="" coords="5,80,133,107"/>
+<area shape="rect" id="node3" href="$block__processor_8h.html" title="include/block_processor.h" alt="" coords="157,80,347,107"/>
+<area shape="rect" id="node6" href="$command__processor_8h.html" title="include/command_processor.h" alt="" coords="371,80,589,107"/>
+<area shape="rect" id="node8" href="$stream_8h.html" title="include/stream.h" alt="" coords="613,80,744,107"/>
+<area shape="rect" id="node4" href="$block__processor_8cpp.html" title="src/block_processor.cpp" alt="" coords="111,155,287,181"/>
+<area shape="rect" id="node5" href="$main_8cpp.html" title="src/main.cpp" alt="" coords="311,155,417,181"/>
+<area shape="rect" id="node7" href="$command__processor_8cpp.html" title="src/command_processor.cpp" alt="" coords="441,155,647,181"/>
+<area shape="rect" id="node9" href="$stream_8cpp.html" title="src/stream.cpp" alt="" coords="671,155,790,181"/>
+</map>
