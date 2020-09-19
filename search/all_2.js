@@ -6,6 +6,5 @@ var searchData=
   ['command_5fprocessor_2ecpp',['command_processor.cpp',['../command__processor_8cpp.html',1,'']]],
   ['command_5fprocessor_2eh',['command_processor.h',['../command__processor_8h.html',1,'']]],
   ['commandcontainer',['CommandContainer',['../classCommandContainer.html',1,'CommandContainer'],['../classCommandContainer.html#abcda94660a5d46f26a42a7117ec59f89',1,'CommandContainer::CommandContainer()=default'],['../classCommandContainer.html#aa671f03a55c57916495d3f5e0f949d20',1,'CommandContainer::CommandContainer(size_t size)']]],
-  ['commandprocessor',['CommandProcessor',['../classCommandProcessor.html',1,'CommandProcessor'],['../classCommandProcessor.html#a228b49021e0205b13fd350dbb7e693d0',1,'CommandProcessor::CommandProcessor()']]],
-  ['controlchars',['controlChars',['../classObserver.html#a326b7870d4154b17d4f0abd159055ccf',1,'Observer']]]
+  ['commandprocessor',['CommandProcessor',['../classCommandProcessor.html',1,'CommandProcessor'],['../classCommandProcessor.html#a228b49021e0205b13fd350dbb7e693d0',1,'CommandProcessor::CommandProcessor()']]]
 ];

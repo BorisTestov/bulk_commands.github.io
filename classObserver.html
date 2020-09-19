@@ -59,8 +59,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classObserver-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Observer Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -78,19 +78,12 @@ Inheritance diagram for Observer:</div>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a326b7870d4154b17d4f0abd159055ccf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObserver.html#a326b7870d4154b17d4f0abd159055ccf">controlChars</a> { <a class="el" href="classObserver.html#a326b7870d4154b17d4f0abd159055ccfae963115f96eba99205699f4592585e64">blockStart</a> = '{', 
-<a class="el" href="classObserver.html#a326b7870d4154b17d4f0abd159055ccfa5b3f7acffdc812b22f0e61e3731c73e7">blockFinish</a> = '}'
- }</td></tr>
-<tr class="separator:a326b7870d4154b17d4f0abd159055ccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a19c43f80a38a332a6f694783df3c9835"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObserver.html#a19c43f80a38a332a6f694783df3c9835">Observer</a> ()</td></tr>
 <tr class="separator:a19c43f80a38a332a6f694783df3c9835"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a942cffd2e1599366cad569a526fc85c0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObserver.html#a942cffd2e1599366cad569a526fc85c0">~Observer</a> ()=default</td></tr>
-<tr class="separator:a942cffd2e1599366cad569a526fc85c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a450645e61c136826f09940a1334c7f34"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObserver.html#a450645e61c136826f09940a1334c7f34">~Observer</a> ()</td></tr>
+<tr class="separator:a450645e61c136826f09940a1334c7f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5034caab4d0255eab238940327f53c9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObserver.html#a5034caab4d0255eab238940327f53c9f">parseCommand</a> (const std::string &amp;command)</td></tr>
 <tr class="memdesc:a5034caab4d0255eab238940327f53c9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод для парсинга входной строки. Вызывается классом, который подключает обработчики  <a href="#a5034caab4d0255eab238940327f53c9f">More...</a><br /></td></tr>
 <tr class="separator:a5034caab4d0255eab238940327f53c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -103,26 +96,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a95594340748a61211cebb38f1e7833ce"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObserver.html#a95594340748a61211cebb38f1e7833ce">finishBlock</a> ()=0</td></tr>
 <tr class="memdesc:a95594340748a61211cebb38f1e7833ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод обработки конца блока  <a href="#a95594340748a61211cebb38f1e7833ce">More...</a><br /></td></tr>
 <tr class="separator:a95594340748a61211cebb38f1e7833ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:afc413041ac46eb5e027d2cabfa632f19"><td class="memItemLeft" align="right" valign="top">const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObserver.html#afc413041ac46eb5e027d2cabfa632f19">blockStart</a> = '{'</td></tr>
+<tr class="separator:afc413041ac46eb5e027d2cabfa632f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0de4327ddccfda5480507d397053c57b"><td class="memItemLeft" align="right" valign="top">const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObserver.html#a0de4327ddccfda5480507d397053c57b">blockFinish</a> = '}'</td></tr>
+<tr class="separator:a0de4327ddccfda5480507d397053c57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a326b7870d4154b17d4f0abd159055ccf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a326b7870d4154b17d4f0abd159055ccf">&#9670;&nbsp;</a></span>controlChars</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="classObserver.html#a326b7870d4154b17d4f0abd159055ccf">Observer::controlChars</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a326b7870d4154b17d4f0abd159055ccfae963115f96eba99205699f4592585e64"></a>blockStart&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a326b7870d4154b17d4f0abd159055ccfa5b3f7acffdc812b22f0e61e3731c73e7"></a>blockFinish&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a19c43f80a38a332a6f694783df3c9835"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a19c43f80a38a332a6f694783df3c9835">&#9670;&nbsp;</a></span>Observer()</h2>
@@ -141,8 +122,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a942cffd2e1599366cad569a526fc85c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a942cffd2e1599366cad569a526fc85c0">&#9670;&nbsp;</a></span>~Observer()</h2>
+<a id="a450645e61c136826f09940a1334c7f34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a450645e61c136826f09940a1334c7f34">&#9670;&nbsp;</a></span>~Observer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -159,7 +140,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -284,6 +265,35 @@ Public Member Functions</h2></td></tr>
 <p>Метод обработки начала блока </p>
 
 <p>Implemented in <a class="el" href="classCommandProcessor.html#a7f351f3c95c778c44fc2778a9a00a99d">CommandProcessor</a>, and <a class="el" href="classBlockProcessor.html#a888d15cafd30e33bc7071bccd8527211">BlockProcessor</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0de4327ddccfda5480507d397053c57b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0de4327ddccfda5480507d397053c57b">&#9670;&nbsp;</a></span>blockFinish</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char Observer::blockFinish = '}'</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc413041ac46eb5e027d2cabfa632f19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc413041ac46eb5e027d2cabfa632f19">&#9670;&nbsp;</a></span>blockStart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char Observer::blockStart = '{'</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
